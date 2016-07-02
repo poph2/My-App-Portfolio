@@ -8,8 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.pop.myappportfolio.MainActivity"
-    android:background="@color/accent_material_dark"
-    android:backgroundTint="@android:color/holo_orange_dark">
+    android:background="#2e3d49">
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -22,18 +21,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="My Nanodegree Apps!"
-            android:id="@+id/textView"
+            android:id="@+id/titleTextView"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:textAlignment="center"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textColor="#ffffff" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Capstone"
-            android:id="@+id/button6"
-            android:layout_below="@+id/button5"
+            android:id="@+id/capstoneButton"
+            android:layout_below="@+id/goUButton"
             android:layout_centerHorizontal="true"
             android:layout_gravity="center_horizontal" />
 
@@ -41,41 +41,41 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Go Ubiquitous"
-            android:id="@+id/button5"
-            android:layout_below="@+id/button4"
+            android:id="@+id/goUButton"
+            android:layout_below="@+id/maMatButton"
             android:layout_centerHorizontal="true" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Make Your App Material"
-            android:id="@+id/button4"
-            android:layout_below="@+id/button3"
-            android:layout_centerHorizontal="true" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Build it Bigger"
-            android:id="@+id/button3"
-            android:layout_below="@+id/button2"
-            android:layout_centerHorizontal="true" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Stock Hawk"
-            android:id="@+id/button2"
-            android:layout_below="@+id/button1"
-            android:layout_centerHorizontal="true" />
-
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Popular Movies"
-            android:id="@+id/button1"
-            android:layout_below="@+id/textView"
+            android:id="@+id/popMovButton"
+            android:layout_below="@+id/titleTextView"
             android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stock Hawk"
+            android:id="@+id/sHawkButton"
+            android:layout_below="@+id/popMovButton"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Build it Bigger"
+            android:id="@+id/bibButton"
+            android:layout_below="@+id/sHawkButton"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Make Your App Material"
+            android:id="@+id/maMatButton"
+            android:layout_below="@+id/bibButton"
+            android:layout_centerHorizontal="true" />
+
+
+
+
 
     </RelativeLayout>
 
