@@ -20,7 +20,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="My Nanodegree Apps!"
+            android:text="@string/main_text"
             android:id="@+id/titleTextView"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
@@ -31,7 +31,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Capstone"
+            android:text="@string/bt_Capstone"
             android:id="@+id/capstoneButton"
             android:layout_below="@+id/goUButton"
             android:layout_centerHorizontal="true"
@@ -40,35 +40,35 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Go Ubiquitous"
+            android:text="@string/bt_Go_Ubiquitous"
             android:id="@+id/goUButton"
             android:layout_below="@+id/maMatButton"
             android:layout_centerHorizontal="true" />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Popular Movies"
+            android:text="@string/bt_Popular_Movies"
             android:id="@+id/popMovButton"
             android:layout_below="@+id/titleTextView"
             android:layout_centerHorizontal="true" />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Stock Hawk"
+            android:text="@string/bt_Stock_Hawk"
             android:id="@+id/sHawkButton"
             android:layout_below="@+id/popMovButton"
             android:layout_centerHorizontal="true" />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Build it Bigger"
+            android:text="@string/bt_Build_it_Bigger"
             android:id="@+id/bibButton"
             android:layout_below="@+id/sHawkButton"
             android:layout_centerHorizontal="true" />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Make Your App Material"
+            android:text="@string/bt_Make_Your_App_Material"
             android:id="@+id/maMatButton"
             android:layout_below="@+id/bibButton"
             android:layout_centerHorizontal="true" />

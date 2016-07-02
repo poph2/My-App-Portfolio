@@ -9,11 +9,9 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    TextView titleTextView;
+    //private TextView titleTextView;
 
-
-
-    Button popMovButton, sHawkButton, bibButton, maMatButton, goUButton, capstoneButton;
+    private Button popMovButton, sHawkButton, bibButton, maMatButton, goUButton, capstoneButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
